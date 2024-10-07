@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+    background-color: tan;
+    color: black;
+}
+
+/* On screens that are 992px wide or less, the background color is blue */
+@media screen and (max-width: 992px) {
+    body {
+        background-color: blue;
+        color: white;
+    }
+}
+
+/* On screens that are 600px wide or less, the background color is olive */
+@media screen and (max-width: 600px) {
+    body {
+        background-color: olive;
+        color: white;
+    }
+}
+
+.testudo {
+    width:800px;
+}
+
+@media screen and (max-width: 800px) {
+    .testudo {
+        width:100%;
+    }
+}
+
+
+@media screen and (max-width: 400px) {
+    .testudo {
+        display:none;
+    }
+}
+</style>
+</head>
+<body>
+
+<h1>Resize the browser window to see the effect!</h1>
+<p>By default, the background color of the document is "tan". If the screen size is 992px or less, the color will change to "blue". If it is 600px or less, it will change to "olive".</p>
+
+<img src="https://umd-today.transforms.svdcdn.com/production/hero/testudo_quiz_1920x1080.jpg?w=1920&h=1080&auto=compress%2Cformat&fit=crop&dm=1698091685&s=37e452c6bcadfdecb3c795e3cc54a79f" class="testudo">
+
+</body>
+</html>

@@ -1,0 +1,121 @@
+/*Styles for my resume */
+
+/*styles text in general*/
+body {
+    font-family: 'Open Sans', arial, sans-serif;
+    font-size: 1em;
+    color: #444;
+    font-weight: 400;
+}
+
+
+/*boxing the body*/
+#container{
+    width: 100%;
+    max-width: 1200px;
+    margin:0 auto;
+    padding-bottom: 50px;
+}
+
+/*list for contact info*/
+.menu{
+    padding:0;
+    margin: 0;
+    text-align: center;
+}
+.menu li{
+    display: inline;
+}
+
+/*styles name*/
+#name {
+    font-size: 3em;
+    text-transform: uppercase;
+    text-align: center;
+    color:#33485e;
+    border-bottom: 1px solid #33485e;
+    width: 60%;
+    min-width: 300 px;
+    margin: 0 auto;
+}
+
+/*styles title*/
+#title {
+    text-transform: uppercase;
+    font-size:1.5em;
+    color:#33485e;
+    font-weight: 600;
+    text-align:center;
+    margin:0px;
+    margin-top: 20px;
+}
+
+/*styles section titles*/
+.sectionheader {
+    font-size: 1.5em;
+    text-transform: uppercase;
+    background-color: #33485e;
+    color: #fff;
+    margin-bottom:10px;
+    margin-top:20px;
+    margin-left: 0;
+    margin-right: 0;
+    width: 70%;
+    min-width: 300px;
+}
+
+/*styles job titles*/
+.jobtitle {
+    font-weight: 600;
+    font-size: 1.5em;
+}
+
+/*styles organizations or employer*/
+.organization {
+    font-weight: 400;
+    font-size: 1.25em;
+}
+
+/*styles job dates*/
+.date {
+    font-weight: 400;
+    font-style: italic;
+    font-size: 1em;
+    margin-top:2px;
+    margin-bottom:0px;
+    margin-left:0px;
+    margin-right:0px;
+}
+.description{
+    margin-top:10px;
+    margin-bottom: 10px;
+    margin-left:0px;
+    margin-right: 0px;
+}
+
+/*styles text in lists*/
+li {
+    font-size: 1em;
+}
+/*styles text under education section*/
+#degrees{
+    margin-top: 5px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+/*styles text in skills section*/
+#do{
+    margin-top: 5px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.top{
+    width:60%;
+    min-width: 300px;
+    margin:0 auto;
+    margin-bottom:30px;
+}

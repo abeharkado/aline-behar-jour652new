@@ -1,0 +1,49 @@
+.btn {
+    font-family: "Special Elite", arial, sans-serif;
+    margin-top: 20px;
+    color: red;
+
+}
+
+.col {
+    text-align: center;
+}
+
+.bi {
+    font-size: 2em;
+}
+
+.col-md-4{
+    padding-top: 60px;
+}
+
+.row {
+    padding-bottom: 50px;
+}
+
+.navbar-brand{
+    font-family: 'Special Elite', system-ui;
+}
+
+h1{
+    font-family: 'Special Elite', system-ui;
+}
+
+h2{
+    font-family: 'Special Elite', system-ui;
+}
+
+h3{
+    font-family: 'Special Elite', system-ui;
+}
+
+
+@media only screen and (max-width: 500px) {
+    h2 {
+        padding-bottom: 50px;
+    }
+    .btn {
+        background-color: teal;
+    }
+}
+    
