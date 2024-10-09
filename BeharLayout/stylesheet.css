@@ -1,18 +1,77 @@
 #content {
     margin: 0 auto;
     width: 900px;
+    font-size: 1em;
 }
 #masthead {
     text-align: center;
     size: 1000px;
 }
 h1{
-    margin-left: 30px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    font-size: 2em;
+    margin: 0 auto;
+    font-family:Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    width: 900px;
 }
-h2{
-    margin-left:30px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+
+#byline {
+    font-family: Helvetica, sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    width:900px;
+    margin: 0 auto;
+    padding-top: 15px;
+    }
+
+h3{
+    margin:0 auto;
+    font-family: Georgia, sans-serif;
     font-size: 1em;
+    width:900px;
+    text-align: left;
+    padding-top:20px;
 }
+.image {
+    display: block;
+    margin-left: auto;
+     margin-right: auto;
+    width: 900px;
+    margin-top: 20px;
+}
+
+p{
+    font-family: Georgia, serif;
+    font-size: 13px;
+}
+
+#caption{
+    font-family: Georgia, serif;
+    font-size: 12px;
+    margin: 0 auto;
+    width: 900px;
+    font-style: italic;
+}
+
+ul{
+    margin: 0 auto;
+    width: 900px;
+    font-size:13px;  
+}
+
+blockquote{
+    font: 24px Apple Chancery, cursive;
+    margin: 5px;
+    text-align: center;
+    color: black;
+}
+
+#quote {
+    width: 600px;
+    height: 50px;
+    padding: 10px;
+    border-left: 5px solid tan;
+    border-right: 5px solid tan;
+    margin: 0 auto;
+
+  }
