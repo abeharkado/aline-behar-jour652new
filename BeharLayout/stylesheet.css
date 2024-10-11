@@ -7,6 +7,13 @@
     text-align: center;
     size: 1000px;
 }
+
+body {
+    margin: 0 auto;
+    width: 900px;
+}
+
+
 h1{
     margin: 0 auto;
     font-family:Helvetica, sans-serif;
@@ -19,8 +26,8 @@ h1{
     font-family: Helvetica, sans-serif;
     font-size: 14px;
     font-style: italic;
-    width:900px;
-    margin: 0 auto;
+    width: 900px;
+    margin-left: 0 auto;
     padding-top: 15px;
     }
 
@@ -34,7 +41,7 @@ h3{
 }
 .image {
     display: block;
-    margin-left: 0 auto;
+    margin: 0 auto;
     width: 900px;
     margin-top: 20px;
 }
