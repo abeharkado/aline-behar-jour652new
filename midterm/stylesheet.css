@@ -1,0 +1,59 @@
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+    margin: 0 auto;
+    width: 900px;
+}
+
+p{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 15px;
+}
+
+blockquote{
+    font-family: Apple Chancery, cursive;
+    font-size: 18px;
+    color: black;
+    background-color: tan;
+    padding: 10px;
+    text-align: center;
+}
+
+
+#byline{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 8px;
+}
+
+#caption{
+    font-style: italic;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 13px;
+}
+
+.image{
+    margin: 0 auto;
+    width: 900px;
+}
+
+.masthead{
+    position: static;
+    left: 2%;
+    width: 300px;
+}
+
+#content{
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+}
