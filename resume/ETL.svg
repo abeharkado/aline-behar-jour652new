@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="33.064" height="33.064" viewBox="0 0 33.064 33.064">
+  <g id="Group_176" data-name="Group 176" transform="translate(5737.31 -260.468)">
+    <path id="Path_136" data-name="Path 136" d="M16.532,33.064h0A16.532,16.532,0,1,1,33.064,16.532,16.532,16.532,0,0,1,16.532,33.064" transform="translate(-5737.31 260.468)" fill="#fff"></path>
+    <path id="Path_137" data-name="Path 137" d="M19.658,35.117c2.475-.056,3.263-.534,3.263-1.6v-17.1h-.7c-2.138,0-3.853,2.081-5.85,5.991l-.422-.056.169-6.441H33.805l.141,6.441-.422.056c-1.969-3.825-3.656-5.991-5.822-5.991h-.675v17.1c0,1.069.76,1.547,3.263,1.6v.394H19.658Z" transform="translate(-5745.723 252.075)" fill="#101c25"></path>
+  </g>
+</svg>
