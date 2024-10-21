@@ -8,6 +8,15 @@ body {
     font-weight: 400;
 }
 
+#logo{
+    background-image: url("logo.png");
+  width: 90px;
+  height: 60px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 20px;
+}
 
 /*boxing the body*/
 #container{
@@ -30,37 +39,73 @@ body {
 /*styles name*/
 #name {
     font-size: 3em;
-    text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
-    color:#33485e;
-    border-bottom: 1px solid #33485e;
-    width: 60%;
+    color: rgb(19, 107, 19);
+    border-bottom: #33485e solid;
+    width: 40%;
     min-width: 300 px;
     margin: 0 auto;
+    background: rgba(255,255,255,0.7);
+    position: absolute;
+    top: 350px; 
+    right: 440px;
+    
 }
 
 /*styles title*/
 #title {
     text-transform: uppercase;
-    font-size:1.5em;
+    font-size:1 em;
     color:#33485e;
     font-weight: 600;
     text-align:center;
-    margin:0px;
-    margin-top: 20px;
+    margin:0 auto;
+    width:40%;
+    background: rgba(255,255,255,0.7);
+    position: absolute;
+    top: 422px; 
+    right: 440px;
+}
+
+#name_title{
+    background-image: url("backimage.jpeg");
+    width: 100%;
+    max-width: 1200px;
+    height: 400px;
+    background-position: center;
+    margin:0 auto;
+    padding-bottom: 50px;
+    
+}
+
+#headshot{
+    border-radius: 200px;
+    width: 280px;
+    height: 280px;
+    max-width:500px;
+    margin-top: 25px;
+}
+
+#intro{
+    margin-top: 120px;
+    margin-left: 50px;
+    font-family: Bookman;
+    font-size: 1.3em;
+    min-width: 300px;
 }
 
 /*styles section titles*/
 .sectionheader {
     font-size: 1.5em;
     text-transform: uppercase;
-    background-color: #33485e;
+    background-color: green;
     color: #fff;
     margin-bottom:10px;
     margin-top:20px;
     margin-left: 0;
     margin-right: 0;
-    width: 70%;
+    width: 100%;
     min-width: 300px;
 }
 
@@ -87,7 +132,7 @@ body {
     margin-right:0px;
 }
 .description{
-    margin-top:10px;
+    margin-top:25px;
     margin-bottom: 10px;
     margin-left:0px;
     margin-right: 0px;
@@ -113,9 +158,13 @@ li {
     margin-right: 0px;
 }
 
-.top{
-    width:60%;
-    min-width: 300px;
-    margin:0 auto;
-    margin-bottom:30px;
+.bi {
+    font-size: 1.5em;
+}
+
+.job{
+    border-color:green;
+    border-style: outset;
+    border-width: 1pz;
+    padding: 10px;
 }
