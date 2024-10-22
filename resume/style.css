@@ -55,9 +55,10 @@ body {
 
 /*styles title*/
 #title {
-    text-transform: uppercase;
     font-size:1 em;
-    color:#33485e;
+    text-transform: capitalize;
+    font-family: Raleway;
+    color: black;
     font-weight: 600;
     text-align:center;
     margin:0 auto;
@@ -116,6 +117,7 @@ body {
     font-size: 1.5em;
     text-align: left;
     margin-left: 30px;
+    font-family: Lato;
 }
 
 /*styles organizations or employer*/
@@ -124,6 +126,7 @@ body {
     font-size: 1.25em;
     text-align: left;
     margin-left: 30px;
+    font-family: Lato;
 }
 
 /*styles job dates*/
@@ -145,6 +148,7 @@ body {
     margin-left: 30px;
     padding-bottom: 10px;
     border-bottom: green solid 0.2em;
+    font-family: Lato;
 }
 
 /*styles text in lists*/
@@ -156,6 +160,7 @@ li {
     font-size: 1em;
     text-align: center;
     padding: 4px;
+    font-family: Lato;
 }
 /*styles text under education section*/
 #degrees{
@@ -175,4 +180,8 @@ li {
 
 .bi {
     font-size: 1.5em;
+}
+
+p{
+    text-align: center;
 }
