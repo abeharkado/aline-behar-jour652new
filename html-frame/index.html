@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Aline Behar Kado HTML project</title>
+<!--Stylsheet-->
+<link rel= "stylesheet" type="text/css" href="stylesheet.css">
+<!--bootstrap-->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha384-KyZXEAg3QhqLMpG8r+Knujsl5+5hb5m+AKoXHgbC8ZVZ4cZl8TY1A0Zj8S0pWgF" crossorigin="anonymous"></script>
+<!-- Popper.js -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz4fnFO9gybmkQ6pYy6D/J1/QotM2ZyFh8u6lEuf+U4s2J5mxFz1x22Z57" crossorigin="anonymous"></script>
+</head>
+
+<body>
+<!--Navbar-->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="visually-hidden">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Disabled</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+</nav>
+<!--end navbar-->
+
+<!--headline and byline-->
+<div class="article-top"> 
+    <img src="hero.jpg" class="hero">
+    <div class="hero-text">
+       <h1>The Headline Goes Here</h1>
+       <h5>By: author's name here</h5> 
+     </div>
+</div>
+
+<!-- chapter start-->
+<div class="chapter">
+    <h2>Chapter Headline</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ac erat eget justo egestas imperdiet. Vestibulum id tortor congue, ultrices sem blandit, dapibus velit. Etiam est neque, rhoncus mollis sapien vel, dignissim commodo sem. Praesent nec justo purus. Nam mi felis, pharetra eu ex ut, consequat tempor enim. Vestibulum sollicitudin pellentesque elit. Nullam vel sapien dapibus, venenatis odio id, pellentesque elit. Etiam sit amet congue justo, a lobortis dolor. Proin eros turpis, molestie vitae malesuada quis, rutrum in libero. Donec id dui mattis, sodales nisl sit amet, consequat ipsum. Curabitur arcu sem, scelerisque nec risus in, lacinia aliquet ante. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam a rhoncus eros. Sed viverra neque suscipit magna auctor, vitae blandit purus sollicitudin. Ut consequat erat diam, ac consectetur ante pharetra non. Donec eget tincidunt est, nec pharetra diam. </p>
+    <img src="dc-street.jpg" class="image"> 
+    <div id="caption"> Caption: insert image or media here</div>
+    <p>Mauris dapibus neque in velit pretium luctus. In hac habitasse platea dictumst. Fusce sodales massa id posuere ultricies. Aliquam in faucibus massa, a maximus quam. Nam erat purus, pulvinar at mauris non, venenatis blandit massa. Nullam dapibus pulvinar metus, nec ultrices sapien porta a. Vivamus posuere quam volutpat sodales venenatis. Nam aliquam a purus at molestie. Duis nec varius libero. Etiam faucibus dolor sed luctus placerat. Aliquam quam arcu, consectetur eget varius id, imperdiet ut massa. Ut fringilla sollicitudin velit, vitae viverra arcu tempus at. Aenean aliquam ac ex a accumsan. Curabitur faucibus tristique luctus. Suspendisse egestas enim vitae sollicitudin iaculis. Vestibulum id enim vitae justo maximus fringilla. Duis venenatis neque at scelerisque ullamcorper. Pellentesque placerat ultricies lectus, vel consectetur mi. Proin finibus suscipit vestibulum. Phasellus sem arcu, porttitor eget faucibus quis, pulvinar vitae sem. In risus magna, vulputate consequat tempor et, aliquam id dolor. Morbi facilisis odio id vestibulum fringilla. Donec aliquet velit velit, at cursus purus rutrum et.</p>
+</div>
+
+<!--Columns-->
+<div class="container text-center">
+    <div class="row">
+      <div class="col-md-4">
+        <p>column 1</p>
+      </div>
+      <div class="col-md-4">
+        <p>column 2</p>
+      </div>
+      <div class="col-md-4">
+        <p>column 3</p>
+      </div>
+    </div>
+</div>
+
+<!--footer-->
+<!-- Footer -->
+<footer class="footer mt-auto py-3 bg-dark">
+    <div class="container">
+        <span class="text-white">footer text</span> <br>
+        <span class="text-white">Copyright 2024 Aline Behar Kado</span>
+    </div>
+</footer>
+
+</body>
+
+</html>
