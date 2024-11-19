@@ -1,0 +1,197 @@
+
+.nav-logo{
+    color:#fff;
+    margin: 0 auto;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.red{
+    color: #f23030;
+}
+
+.navbar{
+    background: #000 !important;
+}
+
+.hero-container {
+    position: relative; 
+    color: white;    
+    text-align: center; 
+}
+
+.hero-image {
+    width: 100%
+}
+
+.overlay {
+    position:absolute;
+    width: 100%;
+    top: 20%;
+    background: #fff;
+    opacity: .7;
+}
+
+.hero-hed{
+    padding-top:10px;
+    margin: 0 auto;
+    font-size: 6em;
+    font-family: Helvetica, sans-serif;
+    color: #f23030;
+    opacity: 1;
+}
+.sub-hed{
+    padding-top:10px;
+    margin: 0 auto;
+    font-size: 2em;
+    font-family: Helvetica, sans-serif;
+    color: #000;
+    opacity: 1;
+}
+
+body{
+    margin: 0 auto;
+}
+
+.story{
+    margin: 0 auto;
+    width: 1200px;
+    max-width: 100%;
+}
+
+.top{
+    margin: 0 auto;
+    text-align: left;
+    padding-top: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+    font-family: Helvetica, sans-serif;
+    width: 1300px;
+    width: 1200px;
+    max-width: 100%;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+h1{
+    font-family: Helvetica, sans-serif;
+    font-size: 3em;
+    padding: 20px;
+}
+h2{
+    font-family: Helvetica, sans-serif;
+    font-size: 3em;
+    font-weight: bold;
+    text-align: left;
+}
+
+h3{
+    text-align: left;
+    font-family: Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+h5{
+    text-transform: uppercase;
+    font-family: Helvetica, sans-serif;
+    font-size: 0.05 em;
+    text-align: center;
+    font-weight: bold;
+}
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12pt;
+}
+
+#authors{
+    font-style: italic;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.chapter{
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.sidebar{
+    outline:red solid;
+    padding: 20px;
+    margin-right: 150px;
+    margin-left: 150px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.image{ 
+    max-width: 300px;
+    width: 100%; 
+    height: auto;  
+    padding-top: 30px;
+}
+
+h4{
+    font-family: Apple Chancery, cursive;
+    padding: 2px;
+}
+
+h5{
+    font-family: Helvetica, sans-serif;
+    font-weight: lighter;
+    text-align: left;
+    padding: 2px;
+    font-size: 0.9em;
+}
+
+.col-md-3{
+    outline: hidden black;
+}
+
+iframe{
+    max-width: 100%;
+    height: auto;
+    outline:#000 solid;
+    padding: 10px;
+}
+
+#caption{
+    color: gray;
+    text-align: left;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 800px;   
+    height: auto;
+    padding-bottom: 30px;
+}
+
+.container{
+    text-align: center;
+    font-size: 10pt;
+    padding: 20px;
+}
+
+a:visited {
+    color: blue;
+  }
+
+a:hover {
+    color: red;
+  }
+
+/* unvisited link */
+a:link {
+    color: green;
+  }
+
+@media(max-width:550px) {
+    p{
+        padding-left:20px;
+        padding-right: 20px;
+    }
+
+}
