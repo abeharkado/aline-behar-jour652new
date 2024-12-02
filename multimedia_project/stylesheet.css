@@ -1,0 +1,62 @@
+.navbar{
+    background:#FC97C1 !important;
+}
+
+.hero-container {
+    position: relative; 
+    color: white;    
+    text-align: center; 
+    padding-bottom: 20px;
+}
+
+.hero-image {
+    width: 100%;
+}
+
+.overlay {
+    position:absolute;
+    width: 80%;
+    top: 30%;
+    background: #fff;
+    opacity: .7;
+    margin-left:200px;
+}
+
+.hero-hed{
+    padding-top:10px;
+    margin: 0 auto;
+    font-size: 6em;
+    font-family: Baskerville, sans-serif;
+    color: #000;
+    opacity: 1;
+}
+
+.sub-hed{
+    padding-top:10px;
+    margin: 0 auto;
+    font-size: 2em;
+    font-family: Baskerville, sans-serif;
+    color: #000;
+    opacity: 1;
+}
+
+body{
+    margin: 0 auto;
+}
+
+.story{
+    margin: 0 auto;
+    width: 1200px;
+    max-width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14pt;
+}
+
+.graphic{
+    border:#8E892D, solid;
+}
+
+.footer{
+    background-color: #FC97C1 !important; 
+    text-align: center;
+}
