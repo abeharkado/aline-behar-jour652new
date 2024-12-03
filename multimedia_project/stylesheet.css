@@ -1,5 +1,6 @@
 .navbar{
-    background:#FC97C1 !important;
+    background:#000 !important;
+    text-color: white;
 }
 
 .hero-container {
@@ -49,14 +50,18 @@ body{
     width: 1200px;
     max-width: 100%;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 14pt;
+    font-size: 1.3em;
 }
 
 .graphic{
     border:#8E892D, solid;
 }
 
+.image{
+    max-width: 100%;
+}
 .footer{
-    background-color: #FC97C1 !important; 
+    background-color: #000 !important; 
     text-align: center;
+    color: white;
 }
