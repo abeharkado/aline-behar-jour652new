@@ -1,0 +1,155 @@
+/*Styles for my resume */
+
+/*styles text in general*/
+body {
+    font-family: 'Open Sans', arial, sans-serif;
+    font-size: 1em;
+    color: #444;
+    font-weight: 400;
+}
+
+/*styles name*/
+#name {
+    font-size: 3em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: rgb(19, 107, 19);
+    border-bottom: #33485e solid;
+    width: 40%;
+    min-width: 300 px;
+    margin: 0 auto;
+    background: rgba(255,255,255,0.7);
+    position: absolute;
+    top: 350px; 
+    right: 430px;
+    
+}
+
+/*styles title*/
+#title {
+    font-size:1 em;
+    text-transform: capitalize;
+    font-family: Raleway;
+    color: black;
+    font-weight: 600;
+    text-align:center;
+    margin:0 auto;
+    width:40%;
+    background: rgba(255,255,255,0.7);
+    position: absolute;
+    top: 422px; 
+    right: 430px;
+}
+
+#intro{
+    background-image: url("backimage.jpeg");
+    width: 1200px;
+    max-width: 1200px;
+    height: 400px;
+    background-position: center;
+    margin:0 auto;
+    padding-bottom: 50px;
+    font-family: Bookman;
+    font-size: 1.3em;
+    
+}
+
+#headshot{
+    border-radius: 200px;
+    width: 280px;
+    height: 280px;
+    max-width:500px;
+    margin-top: 25px;
+}
+
+
+/*styles section titles*/
+.sectionheader {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    background-color: green;
+    color: #fff;
+    margin-bottom:10px;
+    margin-top:20px;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+    min-width: 300px;
+    border:#fff solid 0.5em;
+}
+
+/*styles job titles*/
+.jobtitle {
+    font-weight: 600;
+    font-size: 1.5em;
+    text-align: left;
+    margin-left: 30px;
+    font-family: Lato;
+    
+}
+
+/*styles organizations or employer*/
+.organization {
+    font-weight: 400;
+    font-size: 1.25em;
+    text-align: left;
+    margin-left: 30px;
+    font-family: Lato;
+}
+
+/*styles job dates*/
+.date {
+    font-weight: 400;
+    font-style: italic;
+    font-size: 1em;
+    margin-top:8px;
+    margin-bottom:0px;
+    margin-left:0px;
+    text-align: right;
+}
+.description{
+    margin-top:25px;
+    margin-bottom: 10px;
+    margin-left:0px;
+    margin-right: 0px;
+    text-align: left;
+    margin-left: 30px;
+    padding-bottom: 10px;
+    border-bottom: green solid 0.2em;
+    font-family: Lato;
+}
+
+/*styles text in lists*/
+ul{
+    list-style-type:none;
+}
+
+li {
+    font-size: 1em;
+    text-align: center;
+    padding: 4px;
+    font-family: Lato;
+}
+/*styles text under education section*/
+#degrees{
+    margin-top: 5px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+/*styles text in skills section*/
+#do{
+    margin-top: 5px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.bi {
+    font-size: 1.5em;
+}
+
+p{
+    text-align: center;
+}
